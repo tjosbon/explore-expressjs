@@ -1,0 +1,15 @@
+{
+  "name": "explore-expressjs",
+  "version": "1.0.0",
+  "description": "starting point",
+  "main": "app.js",
+  "repository": "https://github.com/tjosbon/explore-expressjs.git",
+  "author": "terry.osbon@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
