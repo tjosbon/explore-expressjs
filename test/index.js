@@ -11,12 +11,12 @@ describe('GET /', () => {
   let response;
   before((done) => {
     chai.request(app)
-      .get('/')
+      .get('/test')
       .end((err, res) => {
         if(err) console.log(err);
         console.log(response);
         response = res;
-        done();
+        done(err);
       });
   });
   it('should have status code 200', () => {
