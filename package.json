@@ -7,9 +7,15 @@
   "author": "terry.osbon@gmail.com",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "start:watch": "nodemon app.js",
+    "test": "mocha",
+    "test:watch": "mocha -w"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "chai": "^4.0.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2"
   }
 }

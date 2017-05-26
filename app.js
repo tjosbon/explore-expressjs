@@ -5,4 +5,8 @@ app.use('/', function(req, res, next){
 	res.send("Hello World!");
 });
 
-app.listen(3001);
+if(require.main === module){
+	app.listen(3001);
+}
+
+module.exports = app;
